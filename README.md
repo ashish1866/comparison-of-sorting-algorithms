@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔥 Comparative Benchmarking of Sorting Algorithms  
+# Comparative Benchmarking of Sorting Algorithms  
 ### **A High-Performance Evaluation Suite for CPU & GPU Sorting**
 
 <br>
