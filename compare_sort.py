@@ -925,7 +925,7 @@ def pad_to_pow2(lst, pad_value=(2**31-1)):
         return lst, n
     return lst + [pad_value]*(next_pow2 - n), next_pow2
 
-def run_benchmarks_on_file(path, dataset_type, csv_writer, repeats=3):
+def run_benchmarks_on_file(path, dataset_type, csv_writer, repeats=10):
     """
     Run benchmarks on a single file.
     
@@ -1225,3 +1225,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
